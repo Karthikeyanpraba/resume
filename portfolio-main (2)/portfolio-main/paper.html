@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper Publications</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #2A7E6C, #1B4739);
+            background-attachment: fixed;
+            color: white;
+        }
+        .background-lighting {
+            position: absolute;
+            top: -100px;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 80%);
+            pointer-events: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            margin-bottom: 50px;
+        }
+        .publication {
+            border: 1px solid #ddd;
+            background-color: rgba(255, 255, 255, 0.1);
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .certificate-photo {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .certificate-photo img {
+            max-width: 100%;
+            height: auto;
+        }
+        .view-projects-button {
+  display: block;
+  margin: 30px auto; /* Adjust as needed */
+  padding: 10px 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  height: 20px;
+  width: 200px;
+}
+
+.view-projects-button:hover {
+  background-color: #45a049;
+}
+.bttn {
+  display: block;
+  margin: 20px auto; /* Adjust as needed */
+  margin-right: ;
+  padding: 10px 5px;
+  background-color: #868a87;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  height: 20px;
+  width: 150px;
+}
+
+.bttn:hover {
+  background-color: #d3d4d3;
+}
+
+a {
+  
+  color: white;
+ }
+    </style>
+</head>
+<body>
+    <div class="background-lighting"></div>
+    <header>
+        <h1><center>Paper Publication📑</center></h1>
+    </header>
+    <div class="container">
+        <div class="publication">
+            <div class="certificate-photo">
+                <img src="images/paper.jpg" alt="Certificate 1">
+            </div>
+            <h2><center><span"Blockchain-based Electronic Voting System"</center> </h2>
+            <h3><center>Published in <em>IEEE explore</em>, 2023, 7th international conference(ICICCS)</center></h3>
+            <h3>Description:</h3>
+            <p align="justify">Voting is a crucial right where citizens pick their leaders, but current methods can be insecure.
+                 E-voting with blockchain offers a solution. It makes voting safe, transparent, and fraud-resistant. 
+                 Each vote is a block, maintaining accuracy and honesty. The blockchain, secure and transparent,
+                  records votes on a peer-to-peer network. It's unchangeable, encrypting data and using smart contracts 
+                  to prevent fake votes. This research explains how blockchain records votes, emphasizing its structure and 
+                  benefits for electronic voting.</p>
+                  <a href="https://ieeexplore.ieee.org/document/10142675" class="bttn">👉view paper</a>
+                </div>
+        <!-- Add more publication sections with certificate photos as needed -->
+    </div>
+    <a href="index.html" class="view-projects-button">Return to home</a>
+
+</body>
+</html>
